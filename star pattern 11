@@ -1,0 +1,18 @@
+n=int(input())
+x,y=0,0
+while n>x:
+    for i in range(y+1):
+        if x>=n: 
+            break
+        print('* ',end='  ')
+        x+=1
+    y+=1
+    print()
+    
+20
+*  
+*  *  
+*  *  *  
+*  *  *  *  
+*  *  *  *  *  
+*  *  *  *  *
