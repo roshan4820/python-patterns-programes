@@ -1,0 +1,57 @@
+n=int(input())
+x,y=0,0
+while n>x:
+    for i in range(y+1):
+        if x>=n: 
+            break
+        print(chr(65+x%26),end='  ')
+        x+=1
+    y+=1
+    print()
+
+20
+A  
+B  C  
+D  E  F  
+G  H  I  J  
+K  L  M  N  O  
+P  Q  R  S  T
+
+
+21
+A  
+B  C  
+D  E  F  
+G  H  I  J  
+K  L  M  N  O  
+P  Q  R  S  T  U 
+
+
+22
+A  
+B  C  
+D  E  F  
+G  H  I  J  
+K  L  M  N  O  
+P  Q  R  S  T  U  
+V
+
+27
+A  
+B  C  
+D  E  F  
+G  H  I  J  
+K  L  M  N  O  
+P  Q  R  S  T  U  
+V  W  X  Y  Z  A
+
+
+30
+A  
+B  C  
+D  E  F  
+G  H  I  J  
+K  L  M  N  O  
+P  Q  R  S  T  U  
+V  W  X  Y  Z  A  B  
+C  D
